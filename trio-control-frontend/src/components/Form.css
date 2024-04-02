@@ -1,0 +1,85 @@
+/* Form */
+
+:root {
+  --header-color: #282c34;
+  --dark-header-color: #1c1f24;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 20px auto 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+.form-container h2 {
+  color: #282c34;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input {
+  display: inline-block;
+  width: 90%;
+  margin: 5px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: var(--header-color);
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+label {
+  color: #999;
+  display: block;
+  text-align: left;
+  margin: 0 0 3px 14px;
+  font-size: 12px;
+}
+
+label[for='password'] span {
+  margin-top: 26px;
+}
+
+button {
+  width: 200px;
+  font-size: 1em;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 15px;
+  background: #007bff;
+  color: #000;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #0056b3;
+  color: #fff;
+  transform: scale(1.03);
+}
+
+.error {
+  color: red;
+}
+
+.logout {
+  margin-top: 10px;
+  width: 20%;
+  color: #000;
+  background-color: #fff;
+}
+
+button.logout:hover {
+  background-color: #0056b3;
+}

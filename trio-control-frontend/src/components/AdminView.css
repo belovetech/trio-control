@@ -1,0 +1,15 @@
+.admin-view-header {
+  color: #fff;
+}
+
+.flex-container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container button {
+  flex: 0 0 auto;
+}
+
