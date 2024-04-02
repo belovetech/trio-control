@@ -18,6 +18,9 @@ import { formatResponse } from '../common/utils/formatResponse';
 import { Roles } from '../auth/decorators/role.decorator';
 import { Role } from '../auth/enums/role.enum';
 
+/**
+ * Company Controller
+ */
 @Controller('companies')
 export class CompanyController {
   private logger: Logger = new Logger(CompanyService.name);
