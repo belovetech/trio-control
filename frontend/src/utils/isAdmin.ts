@@ -3,4 +3,4 @@ const ADMIN_UID =
 
 export const Admin = (uid: string) => uid === ADMIN_UID;
 
-// console.log("Admin ==> ", Admin);
+console.log("Admin ==> ", Admin);
