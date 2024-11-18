@@ -39,7 +39,7 @@ const Login: React.FC<LoginProps> = ({ onSuccessfulLogin, setIsLoggedIn }) => {
   return (
     <div className='form-container'>
       <div>
-        <h2>Good to see you again!</h2>
+        <h2>Welcome to Trio App</h2>
         <div className='form-group'>
           <label htmlFor='email'> Email </label>
           <input
