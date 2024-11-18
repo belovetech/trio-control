@@ -11,7 +11,7 @@ function App() {
       <div className='App'>
         <section className='Header-section'>
           <header className='App-header'>
-            <h1>Trio App</h1>
+            <h1>Trio Controller</h1>
           </header>
         </section>
         <main className='App-main'>
