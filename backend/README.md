@@ -1,6 +1,6 @@
 # trio-control-backend
 
-Backend system for tri-control application
+Backend system for trio-control application
 
 ## Installation
 
