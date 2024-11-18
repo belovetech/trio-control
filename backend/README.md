@@ -1,4 +1,4 @@
-# trio-control-backend
+# trio-controller-backend
 
 Backend system for tri-control application
 
